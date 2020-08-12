@@ -17,7 +17,7 @@ public class Executor {
         SportCompetitionBuilder builder = new SportCompetitionBuilder();
         director.constructorFootballChampionship(builder);
         SportCompetition competition = builder.getResult();
-        System.out.println("Football competition was created.");
+        System.out.println(competition.toString());
     }
 
     private void buildFootballCompetitionInfo() {
@@ -31,7 +31,7 @@ public class Executor {
         SportCompetitionBuilder builder = new SportCompetitionBuilder();
         director.constructorIceHokeyCup(builder);
         SportCompetition competition = builder.getResult();
-        System.out.println("Ice_hokey competition was created.");
+        System.out.println(competition.toString());
     }
 
     private void buildIceHokeyCompetitionInfo() {

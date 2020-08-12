@@ -30,10 +30,6 @@ public class CompetitionInfo {
         name = "Competition";
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public String print() {
         String info = "";
         info += "Name: " + name + "\n";

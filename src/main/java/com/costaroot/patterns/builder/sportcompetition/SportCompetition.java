@@ -50,6 +50,6 @@ public class SportCompetition {
 
     @Override
     public String toString() {
-        return super.toString();
+        return getTypeOfSports() + " competition was created";
     }
 }
